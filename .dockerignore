@@ -1,0 +1,4 @@
+# Only the files the Docker build context actually needs
+*
+!Dockerfile
+!entrypoint.sh
