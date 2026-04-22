@@ -1,6 +1,6 @@
 # opencode-bedrock
 
-A Docker image for running [OpenCode](https://opencode.ai) with [Amazon Bedrock](https://aws.amazon.com/bedrock/) inside a [Docker Sandbox](https://docs.docker.com/sandbox/) (`sbx`).
+A Docker image for running [OpenCode](https://opencode.ai) with [Amazon Bedrock](https://aws.amazon.com/bedrock/) inside a [Docker Sandbox](https://docs.docker.com/ai/sandboxes/) (`sbx`).
 
 ```
 docker.io/thath/opencode-bedrock
@@ -18,7 +18,7 @@ Everything else — OpenCode itself, Node.js, git — comes from the upstream `d
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (for building)
-- [`sbx`](https://docs.docker.com/sandbox/) — Docker Sandboxes CLI
+- [`sbx`](https://docs.docker.com/ai/sandboxes/) — Docker Sandboxes CLI
 - An [AWS account](https://aws.amazon.com/) with [Amazon Bedrock model access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) enabled
 - AWS credentials configured locally (SSO, IAM user, or any standard method)
 
